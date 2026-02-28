@@ -1,6 +1,6 @@
 from textblob import TextBlob
 from tkinter import ttk
-import tkinter as tk
+import tkinter as tk 
 import functions
 
 ventana = tk.Tk()
@@ -30,4 +30,5 @@ boton_salir.pack(pady= 25)
 cuadro_ia = tk.Text(ventana, height=4, width=40)
 cuadro_ia.pack()
 
-ventana.mainloop()
+ventana.mainloop()  
+ 
