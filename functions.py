@@ -24,4 +24,5 @@ def analizar(entrada_texto,cuadro_ia,barra_humor,porcentaje_label):
 def salir():
     exit()
 
- 
+def limpiar(cuadro_ia,barra_humor):
+   cuadro_ia.delete("1.0",tk.END) 
